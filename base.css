@@ -1,0 +1,92 @@
+body {
+    font-family: 'Montez', cursive;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.wrapper {
+    background: url("Image.JPG") no-repeat fixed center;
+    background-size: cover;
+}
+
+.active a {
+    color: #594153;
+}
+
+.container-fluid {
+    top: 10px;
+}
+
+.clearfix::after {
+    content: ' ';
+    display: block;
+    clear:both;
+}
+
+.fade {
+        opacity:0.75;
+}
+
+.fade:hover {
+        opacity:0.95;
+}
+
+.navbar {
+    background-color: white;
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.navbar-header {
+    height:95px;
+    width:95px;
+}
+
+.navbar-brand img {
+    height: 85px;
+    width: 85px;
+    margin-bottom: 9px;
+    margin-left: 60px;
+}
+
+.navbar-brand {
+    height: 95px;
+    width: 95px;
+    padding: 8px 8px;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    float: right;
+    padding-top: 23px;
+    font-size: 20px;
+}
+
+.navbar-right {
+    margin-right: 25px;
+}
+
+.nav {
+    width: 80%;
+}
+
+footer {
+    background-color: white;
+    /*vertical-align: middle;*/
+    text-align: center;
+    position: relative;
+    width: 100%;
+    opacity: 0.75;
+    height: 38px;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 22px;
+}
